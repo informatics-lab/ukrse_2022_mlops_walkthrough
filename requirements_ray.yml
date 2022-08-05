@@ -1,0 +1,11 @@
+name: ukrse2022_mlops_ray
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pyarrow
+  - matplotlib
+  - pandas
+  - pip:
+    - ray
+    -
