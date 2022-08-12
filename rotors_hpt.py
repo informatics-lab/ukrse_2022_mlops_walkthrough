@@ -163,7 +163,7 @@ def do_training(hyperparameters_dict, X_train, y_train, X_val, y_val, input_shap
         batch_size=hyperparameters_dict['batch_size'], 
         shuffle=True,
         verbose=0,
-        callbacks=[ray.tune.integration.keras.TuneReportCallback({'rmse': 'rmse'})],
+        callbacks=[ray.tune.integration.keras.TuneReportCallback({'root_mean_squared_error': 'root_mean_squared_error'})],
     )    
     
 def run_ml_pipeline(config):
