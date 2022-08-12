@@ -1,4 +1,4 @@
-name: ukrse2022_mlops_walkthrough
+name: ukrse2022_mlops_model_dev
 channels:
   - conda-forge
 dependencies:
@@ -13,4 +13,9 @@ dependencies:
   - tensorboard=2.8
   - imbalanced-learn
   - mlflow=1.20
+  - intake
+  - pip
+  - pip:
+      - ray
+      - ray[tune]
 

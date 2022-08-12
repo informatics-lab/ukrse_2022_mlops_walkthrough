@@ -13,4 +13,9 @@ dependencies:
   - tensorflow=2.8
   - mlflow=1.20
   - holoviz
+  - pip:
+    - ray
+    - ray[serve]
+    
+
 
