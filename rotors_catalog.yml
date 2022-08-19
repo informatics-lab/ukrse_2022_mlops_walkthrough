@@ -1,8 +1,15 @@
 sources:
   rotors:
-    description: Information for training an ML model to prdict turbulent wind gust events called rotors.
+    description: Raw Data for training an ML model to prdict turbulent wind gust events called rotors.
     driver: csv
     args:
       urlpath: '{{ CATALOG_DIR }}/2021_met_office_aviation_rotors.csv'
+    metadata:
+      origin_url: 'https://doi.org/10.5281/zenodo.6966936'
+  rotors_preprocessed:
+    description: Preprocessed for training an ML model to prdict turbulent wind gust events called rotors, with extra feaures for ML.
+    driver: csv
+    args:
+      urlpath: '{{ CATALOG_DIR }}/2021_met_office_aviation_rotors_preprocessed.csv'
     metadata:
       origin_url: 'https://doi.org/10.5281/zenodo.6966936'
