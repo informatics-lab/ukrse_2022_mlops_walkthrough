@@ -50,7 +50,7 @@ Then run jupyter lab with the following command
 ```
 jupyter lab
 ```
-The Jupyter Lab interface will pop up in your dafuly browser.
+The Jupyter Lab interface will pop up in your default browser.
 
 
 ### Links
