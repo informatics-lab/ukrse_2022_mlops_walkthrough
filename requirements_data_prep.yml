@@ -12,3 +12,4 @@ dependencies:
   - dask-labextension
   - distributed
   - holoviz
+  - intake
