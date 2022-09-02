@@ -35,10 +35,11 @@ The following environments should be installed for this walkthrough:
 ### Get the data
 
 The data used in this walkthrough as an [archive on Zenodo](https://doi.org/10.5281/zenodo.6966936). Unformatuantely you can't easily just download all the files in a zendodo record, so you will need to download each. This can be done with the wget commands listed below. It is recommended that these be placed in a directory in ~/data/ukrse2022. 
-* Raw Rotors dataset `wget https://zenodo.org/record/6966937/files/2021_met_office_aviation_rotors.csv ~/data/ukrse2022/`
-* Preprocessed rotors dataset `wget XXX ~/data/ukrse2022/`
-* Intake catalog file `wget catalog.yml ~/data/ukrse2022/`
-* Preprocessed UK cutout of ERA5 Mean Sea-level Pressure dataset for 2017-2021 `wget https://zenodo.org/record/6966937/files/2021_met_office_aviation_rotors.csv ~/data/ukrse2022/`
+* Raw Rotors dataset `wget https://zenodo.org/record/6966937/files/2021_met_office_aviation_rotors.csv -P  ~/data/ukrse2022/`
+* Preprocessed rotors dataset `wget [XXX](https://zenodo.org/record/7022648/files/2021_met_office_aviation_rotors_preprocessed.csv -P ~/data/ukrse2022/`
+* Intake catalog file `wget [catalog.yml](https://raw.githubusercontent.com/informatics-lab/ukrse_2022_mlops_walkthrough/main/rotors_catalog.yml) -P  ~/data/ukrse2022/`
+* Preprocessed UK cutout of ERA5 Mean Sea-level Pressure dataset for 2017-2021 `wget https://zenodo.org/record/6966937/files/2021_met_office_aviation_rotors.csv -P ~/data/ukrse2022/`
+* 
 
 ### Run Jupyter Lab
 
