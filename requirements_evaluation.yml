@@ -1,7 +1,6 @@
 name: ukrse2022_mlops_model_evaluation
 channels:
   - conda-forge
-  - pyviz
 dependencies:
   - python=3.8
   - jupyterlab
@@ -12,12 +11,10 @@ dependencies:
   - scikit-learn=0.24
   - tensorflow=2.8
   - mlflow=1.20
-  - holoviz
-  - mlflow=1.20
+  - panel
   - intake
+  - pip
   - pip:
     - ray
     - ray[serve]
-    
-
 

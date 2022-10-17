@@ -6,6 +6,6 @@ dependencies:
   - pyarrow
   - matplotlib
   - pandas
+  - pip
   - pip:
     - ray
-    -
