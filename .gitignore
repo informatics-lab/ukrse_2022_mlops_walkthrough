@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+mlruns
+*catalog.yml
+*.db
+__pycache__
+mlflow_artifacts
