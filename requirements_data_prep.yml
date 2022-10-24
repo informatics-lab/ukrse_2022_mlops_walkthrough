@@ -1,7 +1,6 @@
 name: ukrse2022_mlops_data_prep
 channels:
   - conda-forge
-  - pyviz
 dependencies:
   - python=3.8
   - jupyterlab
@@ -11,5 +10,5 @@ dependencies:
   - iris=3.1
   - dask-labextension
   - distributed
-  - holoviz
+  - panel
   - intake

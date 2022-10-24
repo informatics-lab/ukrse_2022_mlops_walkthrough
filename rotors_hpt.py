@@ -189,10 +189,4 @@ def run_ml_pipeline(config):
     X_train, y_train, X_val, y_val = make_ml_ready_data(rotors_df, input_feature_names, target_feature_name)
 
     input_shape = (X_train.shape[1],)
-    rotors_model = do_training(hyperparameters_dict, X_train, y_train, X_val, y_val, input_shape)
-    
-    
-    
-    
-
-        
+    rotors_model = do_training(hyperparameters_dict, X_train, y_train, X_val, y_val, input_shape)        
